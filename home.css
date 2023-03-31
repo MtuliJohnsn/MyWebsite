@@ -19,22 +19,50 @@ nav li {
 }
 
 nav a {
-  color: #fff;
   text-decoration: none;
   font-weight: bold;
+  
 }
 
 /* Style for the social media icons */
 #Social-media {
   display: flex;
   align-items: center;
-  margin-right:right;
-
-  
+  top: 0;
+  right: 0;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
 }
-
 
 #Social-media img {
   width: 25px;
   height: 25px;
+}
+
+/* Style for the page background */
+body {
+  background-color: #000;
+}
+#person-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+#contact-me {
+	position: fixed;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	padding: 20px;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+}
+
+#show-form-btn {
+	display: block;
+	margin: 0 auto;
 }
