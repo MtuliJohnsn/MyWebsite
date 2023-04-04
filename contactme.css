@@ -1,0 +1,49 @@
+
+nav {
+    background-color: #333;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+  
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #275c80;
+    color: white;
+    padding: 12px 20px;
+    border:#275c80;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    
+  }
+  form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0 auto;
+    background-color:saddlebrown;
+    
+  }
+  h3{
+    text-align: center;
+
+  }
+  body{
+    background-image: url(beautiful-blue.jpg);
+  }
+ 

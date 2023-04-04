@@ -3,6 +3,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background-image: url("beautiful-blue.jpg");
   }
   
   nav {
@@ -21,5 +22,13 @@ body {
   
   .project img {
 	max-width: 50%;
+  }
+  nav{
+	position: fixed;
+	top: 0;
+    background-color: #f2f2f2;
+	
+   
+
   }
   

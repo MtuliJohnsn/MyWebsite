@@ -2,19 +2,20 @@
 <html>
 <head>
 	<title>My Website</title>
-	<link rel="stylesheet" href="style.css">
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="home.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" 
-	rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" 
+		integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+		crossorigin="anonymous">
 </head>
 <body>
-	<header>
+	<header >
 		<nav>
 			<ul class="nav nav-pills">
 				<li class="nav-item">
-				  <a class="nav-link "  href="home.html">Home</a>
+				  <a class="nav-link" href="home.html">Home</a>
 				</li>
 				<li class="nav-item">
 				  <a class="nav-link" href="work.html">Work</a>
@@ -23,41 +24,36 @@
 				  <a class="nav-link" href="CV.html">Resume</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link " href="contact.html">Contact</a>
+				  <a class="nav-link" href="contact.html">Contact</a>
 				</li>
-				
-			<section id ="Social-media">
-			<li class="nav-item">
-				<a class="nav-link " href="https://www.facebook.com/mtulijohnsn"><img src="fb.png"></a>
-			</li>
-			<li class="nav-item">
-			<a class="nav-link" href="https://twitter.com/"><img src="twitter.png" ></a>
-		   </li>
-
-		   <li class="nav-item">
-			<a  class ="nav-link "href="https://www.linkedin.com/"><img src="linkedin.png"></a> 
-		</li>
-		<li class="nav-item">
-			<a  class = "nav-link" href="https://www.instagram.com/"><img src="instagram.png"></a> 
-		</li>
-		<li class="nav-item">
-			<a  class = "nav-link" href="https://www.youtube.com/@mtulijohn"><img src="youtube.png"></a> 
-		</li>
-		</ul>
-	</section>
+			</ul>
+			<section id="Social-media">
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.facebook.com/mtulijohnsn"><img src="fb.png"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://twitter.com/"><img src="twitter.png"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.linkedin.com/"><img src="linkedin.png"></a> 
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.instagram.com/"><img src="instagram.png"></a> 
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.youtube.com/@mtulijohn"><img src="youtube.png"></a> 
+					</li>
+				</ul>
+			</section>
 		</nav>
-		
 	</header>
-	<div id="person-description">
-		<p> Hello my name is Mtuli John,I am a web developer based in Ohio columbus. I have one year of experience in building websites and web applications.</p>
-		<a href="contactme.html"><button>Contact Me</button></a>
 
-	<main>
-		       
-				<img src="Kayla-Person.jpg" alt="Person Photo">
-			</div>
-			
-	</main>
+	<div id="person-description">
+		<h2>Hello, I am Mtuli John Web developer <br> <a href="contactme.html">Contact me</a></h2>
+		<img src="Kayla-Person.jpg" alt="Person Photo">
+	</div>
+
 	<script>
 		document.getElementById("show-form-btn").addEventListener("click", function() {
 			document.getElementById("contact-form").style.display = "block";
@@ -65,9 +61,8 @@
 		});
 	</script>
 
-	<script src ="contactme.js"></script>
+	<script src="contactme.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
- <footer>
 </body>
 </html>
