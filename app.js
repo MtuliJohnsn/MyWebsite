@@ -21,6 +21,11 @@ app.get('/work', (req, res) => {
   res.sendFile(__dirname + '/work.html');
 });
 
+// Define a route handler for the contact me page
+app.get('/contactme', (req, res) => {
+  res.sendFile(__dirname + '/contactme.html');
+});
+
 // Start the server
 app.listen(3000, () => {
   console.log('Server started on port 3000');
