@@ -25,12 +25,16 @@ nav ul {
 
 nav li {
   margin-right: 20px;
+ 
 }
+
 
 nav a {
   text-decoration: none;
   color: #333;
   font-size: 16px;
+  
+ 
 }
 
 /* Style for the section containing the person description */
