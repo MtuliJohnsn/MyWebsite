@@ -5,7 +5,7 @@ if (isset($_POST['submit'])) { // check if the form was submitted
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $
+    
 }
 $to = 'youremail@example.com';
 $subject = 'New form submission';
